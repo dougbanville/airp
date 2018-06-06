@@ -1,0 +1,21 @@
+html, body, h1, h2, h3, blockquote, p, ol, ul, li, iframe, button {
+	font-size:1.5rem;
+}
+
+.tweet {
+    border-width: 0 0 1px;
+    min-height: 110px;
+    padding: 18px 22px 10px 69px;
+}
+.custom-timeline-owner-profile, .timeline .e-entry-title, .p-author .p-name, .cards-base h3, .new-tweets-bar button, .load-tweets, .no-more-pane {
+    font-size: 1.9rem;
+    line-height: 2.2rem;
+}
+.footer {
+    margin-top: 0.2rem;
+    min-height: 40px;
+    overflow: hidden;
+}
+
+
+.p-author:before, .p-author:after, .cards-base:before, .cards-base:after {display:none}

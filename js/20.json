@@ -1,0 +1,54 @@
+{
+   "responseHeader":{
+      "status":0,
+      "QTime":142,
+      "params":{
+         "sort":"bdate desc",
+         "q":"*:*",
+         "wt":"json",
+         "fq":"channel:1",
+         "rows":"10"
+      }
+   },
+   "response":{
+      "start":0,
+      "docs":[
+         {
+            "progname":"RTÉjrS Twitter",
+            "piaid":"0",
+            "twitterwidgetid":"535143141981315072",
+            "podcast":"yes"
+          },
+		  {
+            "progname":"Arts Tonight",
+            "piaid":"1538",
+            "twitterwidgetid":"374537291571556352",
+            "podcast":"yes"
+          },
+		  {
+            "progname":"Today with Sean ORourke",
+            "piaid":"15036",
+            "twitterwidgetid":"377365697497559040",
+            "podcast":"yes"
+          },
+		  {
+            "progname":"Liveline",
+            "piaid":"53",
+            "twitterwidgetid":"488701927048237056",
+            "podcast":"yes"
+          },
+		   {
+            "progname":"Mooney",
+            "piaid":"82",
+            "twitterwidgetid":"312248901501587456",
+            "podcast":"yes"
+          },
+		  {
+            "progname":"Drivetime",
+            "piaid":"83",
+            "twitterwidgetid":"312245630951112704",
+            "podcast":"yes"
+          }         
+      ]
+   }
+}

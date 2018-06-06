@@ -1,0 +1,31 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+}
+table{
+    border: 10px solid black;
+}
+td{
+    padding: 2em;
+    font-size:18px;
+
+}
+.img{
+    margin-right:1em;
+    max-width:50px;
+}
+.showTitle{
+    font-size:18px;
+    color:#FFFFFF;
+}
+p{
+    color:#FFFFFF;
+}
+.onAir{
+    display: block;
+    width: 100%;
+    height: auto;
+}

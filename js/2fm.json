@@ -1,0 +1,54 @@
+{
+   "responseHeader":{
+      "status":0,
+      "QTime":142,
+      "params":{
+         "sort":"bdate desc",
+         "q":"*:*",
+         "wt":"json",
+         "fq":"channel:1",
+         "rows":"10"
+      }
+   },
+   "response":{
+      "start":0,
+      "docs":[
+         {
+            "progname":"Breakfast Republic",
+            "piaid":"16724",
+            "twitterwidgetid":"437934677530136577",
+            "podcast":"yes"
+          },
+		  {
+            "progname":"Tubridy",
+            "piaid":"4678",
+            "twitterwidgetid":"312185038823374848",
+            "podcast":"yes"
+          },
+		  {
+            "progname":"The Nicky Byrne Show",
+            "piaid":"16781",
+            "twitterwidgetid":"440443807801151488",
+            "podcast":"yes"
+          },
+		  {
+            "progname":"Rick O'Shea in the Afternoon",
+            "piaid":"911",
+            "twitterwidgetid":"312177517781983233",
+            "podcast":"yes"
+          },
+		   {
+            "progname":"Drive By with Colm Hayes",
+            "piaid":"16750",
+            "twitterwidgetid":"312182237380608001",
+            "podcast":"yes"
+          },
+		  {
+            "progname":"Game On",
+            "piaid":"5777",
+            "twitterwidgetid":"440516153010429952",
+            "podcast":"yes"
+          }         
+      ]
+   }
+}

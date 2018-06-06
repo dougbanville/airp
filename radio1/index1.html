@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.rte.ie/digitalradio/radioplayer/js/rterp-0.02.js" language="javascript"></script>
+
+<script type="text/javascript" src="http://www.rte.ie/digitalradio/radioplayer/js/jquery.waituntilexists.js" language="javascript"></script>
+<link href="http://www.rte.ie/digitalradio/radioplayer/css/generic.css" type="text/css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>RTÉ Radio 1</title>
+<script type="text/javascript">
+$( document ).ready(function() {
+	currentShow(9);
+	
+	
+	
+	$("iframe#twitter-widget-0").waitUntilExists(function(){
+		$("iframe#twitter-widget-0").css("height","1000px");
+		$("iframe#twitter-widget-0").contents().find("body").append('<link href="http://www.rte.ie/digitalradio/radioplayer/css/twitter.css" type="text/css" rel="stylesheet">');
+    	//$("iframe#twitter-widget-0").contents().find("link[rel='stylesheet']:last").append('<link href="http://www.rte.ie/digitalradio/radioplayer/css/twitter.css" type="text/css" rel="stylesheet">');     
+});
+	
+});
+
+
+</script>
+
+<style>
+#playout-wrapper{
+	display:none
+	
+}
+
+#twitter-container{
+	background-color: #64A0C8;
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 20px;
+    width: 100%;
+}
+
+.on-air-email{
+	color: #64A0C8;
+	}
+</style>
+
+</head>
+
+<body>
+    <div id="wrapper">
+		<div id="on-air">
+            <div id="on-air-img">
+            </div>
+            <div id="on-air-info">
+            	<div id="on-air-button">
+                </div>
+                <div id="on-air-title">
+                </div>
+                <div id="on-air-desc">
+                </div>
+            </div>
+          	    
+        </div>
+        <div id="email-studio">
+        </div>
+        <div id="playout-wrapper">
+            <div id="playout-inner">
+            
+            </div>  
+        </div>
+        <div id="twitter-container">
+        
+        </div> 
+    </div>
+</body>
+<script type="text/javascript">
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+</html>

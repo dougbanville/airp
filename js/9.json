@@ -1,0 +1,115 @@
+{
+   "responseHeader":{
+      "status":0,
+      "QTime":142,
+      "params":{
+         "sort":"bdate desc",
+         "q":"*:*",
+         "wt":"json",
+         "fq":"channel:1",
+         "rows":"10"
+      }
+   },
+   "response":{
+      "start":0,
+      "docs":[
+	  {
+            "progname":"Radio 1",
+            "piaid":"0",
+            "twitterwidgetid":"311457786968014849",
+            "podcast":"no"
+          },
+         {
+            "progname":"The Rolling Wave",
+            "piaid":"1852",
+            "twitterwidgetid":"431088443070771200",
+            "podcast":"yes"
+          },
+		  {
+            "progname":"Liveline",
+            "piaid":"53",
+            "twitterwidgetid":"488701927048237056",
+            "podcast":"yes"
+          },
+		  {
+            "progname":"Ceili House",
+            "piaid":"20",
+            "twitterwidgetid":"431085705121378304",
+            "podcast":"yes"
+          },
+		  {
+            "progname":"Arena",
+            "piaid":"1526",
+            "twitterwidgetid":"312245218185445376",
+            "podcast":"yes"
+          },
+		   {
+            "progname":"John Murray Show",
+            "piaid":"4502",
+            "twitterwidgetid":"312250023167524864",
+            "podcast":"yes"
+          },
+		  {
+            "progname":"Sean O'Rourke",
+            "piaid":"15036",
+            "twitterwidgetid":"377365697497559040",
+            "podcast":"yes"
+          }, 
+		  {
+            "progname":"Mooney",
+            "piaid":"82",
+            "twitterwidgetid":"312248901501587456",
+            "podcast":"yes"
+          },  
+		  {
+            "progname":"The History Show",
+            "piaid":"5392",
+            "twitterwidgetid":"431074800551743488",
+            "podcast":"yes"
+          },  
+		  {
+            "progname":"Drivetime",
+            "piaid":"83",
+            "twitterwidgetid":"312245630951112704",
+            "podcast":"yes"
+          },  
+		  {
+            "progname":"The Business",
+            "piaid":"172",
+            "twitterwidgetid":"312249703465107457",
+            "podcast":"yes"
+          },  
+		  {
+            "progname":"Marian Finucane",
+            "piaid":"70",
+            "twitterwidgetid":"312246591308316672",
+            "podcast":"yes"
+          }, 
+		  {
+            "progname":"Doc on One",
+            "piaid":"14",
+            "twitterwidgetid":"532867465559035904",
+            "podcast":"yes"
+          },
+		  {
+            "progname":"Drama On One",
+            "piaid":"74",
+            "twitterwidgetid":"532868217891332096",
+            "podcast":"yes"
+          },  
+		  {
+            "progname":"Morning Ireland",
+            "piaid":"48",
+            "twitterwidgetid":"532869255377584130",
+            "podcast":"yes"
+          },  
+		  {
+            "progname":"News At One",
+            "piaid":"135",
+            "twitterwidgetid":"532870572233850880",
+            "podcast":"yes"
+          }
+		         
+      ]
+   }
+}

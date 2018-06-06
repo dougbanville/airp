@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<!--<script type="text/javascript" src="http://www.rte.ie/digitalradio/radioplayer/js/rterp-1.05.js?v=20160113" language="javascript"></script>-->
+<script type="text/javascript" src="http://www.rte.ie/digitalradio/radioplayer/js/rterp-1.08.js?v=20180212" language="javascript"></script>
+<script type="text/javascript" src="http://static.radioplayer.ie/mobile/v2/stationview/js/rp.webview.api.min.js"></script>
+<link href="http://www.rte.ie/digitalradio/radioplayer/css/generic.css" type="text/css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="section" content="Radio" />
+<meta name="pillar" content="RTÉ Gold" />  
+<meta name="platform" content="app" /> 
+
+<meta name="pillarCS" content="gold" />
+<meta name="app" content="irp" />
+
+
+<title>RTÉ Gold</title>
+<script type="text/javascript">
+$( document ).ready(function() {
+	checkLive(22);	
+	playoutHistory(22)
+});
+</script>
+
+<style>
+#playout-wrapper{
+	background-color: #A17700;	
+}
+
+#twitter-container{
+	display:none;
+}
+.on-air-email{
+	color: #A17700;
+	}
+</style>
+
+</head>
+
+<body>
+    <div id="wrapper">
+		<div id="on-air">
+            <div id="on-air-img">
+            </div>
+            <div id="on-air-info">
+            	<div id="on-air-button">
+                </div>
+                <div id="on-air-title">
+                </div>
+                <div id="on-air-desc">
+                </div>
+            </div>
+          	    
+        </div>
+        <div id="email-studio">
+        </div>
+         <div id="playout-wrapper">
+        	<div id="playout-header-container">
+                    <img id="playout-header" alt="Tracks Played" src="/digitalradio/radioplayer/images/gold-tracklist.png"/>
+                </div> 
+            <div id="playout-inner">
+                
+            </div>  
+        </div>
+        <div id="twitter-container">
+        
+        </div> 
+    </div>
+</body>
+<script type="text/javascript">
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+</html>

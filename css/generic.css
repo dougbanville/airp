@@ -1,0 +1,186 @@
+/* CSS Document */
+body{
+	background-color:#FFF;
+	font-family: Verdana,Geneva,sans-serif;
+}
+#wrapper{
+	background-color: #FFF;
+    margin: 0 auto;
+    max-width: 980px;
+    width: 100%;
+	font-size:2.5rem;		
+	border-top:1px solid #000;
+}
+#on-air{
+	height: 420px;
+    margin: auto;
+    padding: 50px 0;
+    width: 100%;
+}
+#on-air-img{
+	float: left;
+    max-width: 420px;
+    padding-left: 3%;
+    width: 43%;
+}
+
+#on-air-img img{
+	width:100%;
+	max-width:420px;
+}
+
+#on-air-info{
+	color: #636363;
+    float: left;
+    max-width: 550px;
+    padding-left: 5%;
+    width: 46%;
+}
+#on-air-title{
+	font-size: 105%;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+#on-air-desc{
+	font-size:75%;
+	margin-top:10px;
+}
+
+.on-air-email{
+	font-size: 100%;
+    font-weight: bold;
+    line-height: 200%;
+    text-decoration: none;
+}
+
+#playout-wrapper{
+	margin:auto;
+	clear:both;
+	background-color:#666;
+	padding:30px;
+	position:relative;
+}
+#playout-header-container{
+	left: 68px;
+    overflow: hidden;
+    position: absolute;
+    top: 100px;
+    width: 90%;
+	}
+#playout-header{
+	margin-left: -50px;
+}
+#playout-inner{
+	background-color: #fff;
+    overflow: hidden;
+    padding: 160px 5% 5%;
+	}	
+.playout-item{
+	background: none repeat scroll 0 0 #fff;
+    clear: both;
+    height: 130px;
+    padding-top: 6%;
+	padding-bottom:5%;
+    max-width: 960px;
+    position: relative;
+    width: 100%;
+	}	
+	
+.playout-item-img{
+	float: left;
+    margin: 10px;
+    max-width: 135px;
+    width: 30%;
+}
+
+.playout-item-img img{
+	width:100%;
+	max-width: 140px;
+}
+
+.playout-item-metadata{
+	color: #333;
+    float: left;
+    margin-left: 20px;
+    max-width: 700px;
+    width: 75%;
+	}
+
+.playout-item-now-playing{
+	font-size:90%;
+	font-weight:bold;
+}
+.playout-item-artist{
+	font-weight:bold;
+	}
+	
+.playout-item-title{
+
+		
+	}
+	
+.playout-item-playout-time{	
+	font-size:1.2rem;
+	position:absolute;
+	top:5px;
+	right:5px;
+	display:none;
+}
+.latest .playout-item-playout-time{	
+	display:none;
+}
+.playout-item-vote{
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	display:none;
+}
+#twitter-container{
+	background-color: #f89828;
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 20px;
+    width: 100%;
+}
+
+#twitter-container iframe{
+	width:100%;
+	max-width: 960px;
+}
+iframe[id^='twitter-widget-']{ width:100% !important; height: 800px; !important}
+.imgleft{
+    float:left;
+    margin-right:10px; 
+	margin-left:10px; 
+}
+.marginAfter{
+    margin-bottom:10px;
+}
+#twitter-container2{
+    background-color: #f89828;
+}
+/* Doug's classes */
+.tracklistBox{
+	background:#FFFFFF;
+	padding:8px;
+}
+.artistinner{
+	margin-bottom:10px;	
+}
+.trackimage{
+	margin-right:8px;
+	float:left;	
+}
+#tracklist_outer{
+	padding:10px;
+}
+.station{
+	background:#000000;
+}
+.stationInfo{
+	margin-bottom:10px;	
+}
+.StationContent{
+	padding:10px;
+}

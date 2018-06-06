@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="../js/rterp-1.05.js?v=41" language="javascript"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous" />
+<link href="../css/generic.css?v=11" type="text/css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- remove this for production -->
+<meta name="robots" content="noindex">
+<!-- /remove this for production -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="section" content="Radio" />
+<meta name="pillar" content="RTÉ 2fm" />  
+<meta name="platform" content="app" /> 
+
+<meta name="pillarCS" content="2fm" />
+<meta name="app" content="irp" /> 
+</head>
+<script>
+$( document ).ready(function() {	
+
+var stationID = 1;
+
+playoutHistoryNew(stationID);
+getDetails(stationID);
+});
+</script>
+<body>
+<div class="container-fluid">
+	<div class="row clearfix stationInfo">
+    	<div class="col-md-12 col-sm-7">
+        	<div class="StationContent"></div>
+        </div>
+    </div>
+	<div class="row clearfix">
+    	<div class="col-md-12 col-sm-7">
+        	<div id="tracklist_outer">
+            	<div class="tracklistBox">  
+                <h1 id="tracklistTitle">Track List</h1>              	
+            		<div id="artist"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>

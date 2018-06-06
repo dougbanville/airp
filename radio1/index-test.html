@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.rte.ie/digitalradio/radioplayer/js/rterp-0.05.js?v=155" language="javascript"></script>
+<script type="text/javascript" src="http://www.rte.ie/digitalradio/radioplayer/js/jquery.waituntilexists.js" language="javascript"></script>
+<script type="text/javascript" src="http://static.radioplayer.ie/mobile/v2/stationview/js/rp.webview.api.min.js"></script>
+
+<link href="http://www.rte.ie/digitalradio/radioplayer/css/generic.css" type="text/css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="section" content="Radio" />
+<meta name="pillar" content="RTÉ Radio 1" />  
+<meta name="platform" content="app" />  
+
+<title>RTÉ Radio 1</title>
+<script type="text/javascript">
+$( document ).ready(function() {
+	checkLive(9);	
+	setInterval(function(){
+		checkLive(9);	
+	}, 60000);			
+});
+</script>
+
+<style>
+#playout-wrapper{ 
+	display:none
+	
+}
+
+#twitter-container{
+	background-color: #64A0C8;
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 20px;
+    width: 100%;
+}
+
+.on-air-email{
+	color: #64A0C8;
+	}
+</style>
+
+</head>
+
+<body>
+    <div id="wrapper">
+		<div id="on-air">
+            <div id="on-air-img">
+            </div>
+            <div id="on-air-info">
+                <div id="on-air-title">
+                </div>
+                <div id="on-air-desc">
+                </div>
+            </div>
+          	    
+        </div>
+        <div id="email-studio">
+        </div>
+        <div id="playout-wrapper">
+            <div id="playout-inner">
+            
+            </div>  
+        </div>
+        <div id="twitter-container">
+        
+        </div> 
+    </div>
+    
+</body>
+</html>

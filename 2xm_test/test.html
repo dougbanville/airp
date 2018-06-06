@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<script>
+$( document ).ready(function() {	
+
+var stationID = 16;
+
+var rows = "10";
+	var date = new Date();
+	//get time in ISO Format to get all tracks before NOW
+	now = date.toISOString();
+//var url = 	"http://feeds.rasset.ie/sitesearch/tracklistinglive/select?q=*:*&wt=json&fq=bdate:[*%20TO%20" + now + "]&fq=channel:" + stationID + "&sort=bdate%20desc&rows="+rows;
+var url = 'json.josn';
+
+$.ajax({
+		type: "GET",
+		url: url,
+		dataType: "json",
+		async: false,
+		cache:true,
+		jsonpCallback: "callback",
+		contentType: "application/json", 
+		success: function(data) {
+			$.each(data.response.docs, function(i,result){
+				if (stationID == 16){
+					artist = result.composer;
+				} else {
+				artist = result.performer;
+				}
+				var html = '<div>';
+				html += artist + '<br>';
+				$("artist").html(html);
+			})
+		}
+});
+});
+</script>
+<body>
+<p id ="artist"></p>
+</body>
+</html>
